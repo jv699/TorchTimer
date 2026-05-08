@@ -1,0 +1,21 @@
+# Pebble SDK
+.pebble/
+build/
+*.pbw
+*.pbl
+*.elf
+*.o
+*.d
+.sconsign.dblite
+
+# IDE
+.cproject
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
