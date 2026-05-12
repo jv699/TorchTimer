@@ -1,60 +1,70 @@
-Setting top to                           : /tmp/tmpx2ps22mj 
-Setting out to                           : /tmp/tmpx2ps22mj/build 
+Setting top to                           : /tmp/tmpg0soue27 
+Setting out to                           : /tmp/tmpg0soue27/build 
 Checking for program 'webpack'           : /root/.pebble-sdk/SDKs/current/node_modules/.bin/webpack 
 Found Pebble SDK for gabbro in:          : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for flint in:           : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/flint 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for emery in:           : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/emery 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for diorite in:         : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/diorite 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for chalk in:           : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/chalk 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for basalt in:          : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/basalt 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
 Found Pebble SDK for aplite in:          : /root/.pebble-sdk/SDKs/current/sdk-core/pebble/aplite 
 Checking for program 'gcc, cc'           : arm-none-eabi-gcc 
-15:51:06 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
+18:04:10 runner ['arm-none-eabi-gcc', '-dM', '-E', '-']
 Checking for program 'ar'                : arm-none-eabi-ar 
-'configure' finished successfully (0.089s)
-Waf: Entering directory `/tmp/tmpx2ps22mj/build'
+'configure' finished successfully (0.094s)
+Waf: Entering directory `/tmp/tmpg0soue27/build'
 [1/1] Creating message_key_header:  -> build/include/message_keys.auto.h
 [ 2/13] Creating gabbro | resource_ball:  -> build/gabbro/system_resources.resball
-[ 3/13] Creating gabbro | /tmp/tmpx2ps22mj/build/gabbro/appinfo.auto.c:  -> build/gabbro/appinfo.auto.c
+[ 3/13] Creating gabbro | /tmp/tmpg0soue27/build/gabbro/appinfo.auto.c:  -> build/gabbro/appinfo.auto.c
 [ 4/13] Compiling gabbro | subst: /root/.pebble-sdk/SDKs/current/sdk-core/pebble/common/pebble_app.ld.template -> build/gabbro/pebble_app.ld.auto
-[ 5/13] Creating gabbro | /tmp/tmpx2ps22mj/build/appinfo.json:  -> build/appinfo.json
+[ 5/13] Creating gabbro | /tmp/tmpg0soue27/build/appinfo.json:  -> build/appinfo.json
 [ 6/13] Compiling gabbro | generate_resource_id_definitions: build/gabbro/system_resources.resball -> build/gabbro/src/resource_ids.auto.c
 [ 7/13] Compiling gabbro | generate_pbpack: build/gabbro/system_resources.resball -> build/gabbro/app_resources.pbpack
 [ 8/13] Compiling gabbro | generate_resource_id_header: build/gabbro/system_resources.resball -> build/gabbro/src/resource_ids.auto.h
-[ 9/13] Compiling gabbro | c: src/c/main.c -> build/src/c/main.c.51.o
-15:51:06 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', '../src/c/main.c', '-c', '-o/tmp/tmpx2ps22mj/build/src/c/main.c.51.o']
-[10/13] Compiling gabbro | c: build/gabbro/appinfo.auto.c -> build/gabbro/appinfo.auto.c.51.o
-15:51:06 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', 'gabbro/appinfo.auto.c', '-c', '-o/tmp/tmpx2ps22mj/build/gabbro/appinfo.auto.c.51.o']
+[ 9/13] Compiling gabbro | c: build/gabbro/appinfo.auto.c -> build/gabbro/appinfo.auto.c.51.o
+18:04:10 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', 'gabbro/appinfo.auto.c', '-c', '-o/tmp/tmpg0soue27/build/gabbro/appinfo.auto.c.51.o']
+[10/13] Compiling gabbro | c: src/c/main.c -> build/src/c/main.c.51.o
+18:04:10 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', '../src/c/main.c', '-c', '-o/tmp/tmpg0soue27/build/src/c/main.c.51.o']
 [11/13] Compiling gabbro | c: build/gabbro/src/resource_ids.auto.c -> build/gabbro/src/resource_ids.auto.c.51.o
-15:51:06 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', 'gabbro/src/resource_ids.auto.c', '-c', '-o/tmp/tmpx2ps22mj/build/gabbro/src/resource_ids.auto.c.51.o']
+18:04:10 runner ['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', 'gabbro/src/resource_ids.auto.c', '-c', '-o/tmp/tmpg0soue27/build/gabbro/src/resource_ids.auto.c.51.o']
+../src/c/main.c: In function 'update_menu_items':
+../src/c/main.c:86:3: error: implicit declaration of function 'simple_menu_layer_reload_data'; did you mean 'menu_layer_reload_data'? [-Wimplicit-function-declaration]
+   86 |   simple_menu_layer_reload_data(s_menu_layer);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   menu_layer_reload_data
 ../src/c/main.c: In function 'main_window_load':
-../src/c/main.c:44:21: error: initialization of 'void (*)(struct MenuLayer *, MenuIndex *, void *)' from incompatible pointer type 'void (*)(MenuLayer *, const MenuIndex *, void *)' [-Wincompatible-pointer-types]
-   44 |     .select_click = menu_select_callback,
-      |                     ^~~~~~~~~~~~~~~~~~~~
-../src/c/main.c:44:21: note: (near initialization for '(anonymous).select_click')
+../src/c/main.c:93:79: error: passing argument 5 of 'simple_menu_layer_create' makes pointer from integer without a cast [-Wint-conversion]
+   93 |   s_menu_layer = simple_menu_layer_create(bounds, window, s_menu_sections, 1, true);
+      |                                                                               ^~~~
+      |                                                                               |
+      |                                                                               int
+In file included from ../src/c/main.c:1:
+/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include/pebble.h:7567:68: note: expected 'void *' but argument is of type 'int'
+ 7567 |     const SimpleMenuSection *sections, int32_t num_sections, void *callback_context);
+      |                                                              ~~~~~~^~~~~~~~~~~~~~~~
 
-Waf: Leaving directory `/tmp/tmpx2ps22mj/build'
+Waf: Leaving directory `/tmp/tmpg0soue27/build'
 Build failed
  -> task in 'gabbro/pebble-app.elf' failed with exit status 1: 
-	{task 140001286756896: c main.c -> main.c.51.o}
-['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', '../src/c/main.c', '-c', '-o/tmp/tmpx2ps22mj/build/src/c/main.c.51.o']
+	{task 140095449848352: c main.c -> main.c.51.o}
+['arm-none-eabi-gcc', '-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-fcommon', '-g', '-fPIE', '-Os', '-D_TIME_H_', '-Dtime_t=long', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable', '-Wno-error=builtin-declaration-mismatch', '-Wno-error=format-truncation', '-Wno-error=expansion-to-defined', '-Wno-error=zero-length-bounds', '-Wno-error=cast-function-type', '-Wno-error=unused-value', '-I/root/.pebble-sdk/SDKs/current/sdk-core/pebble/gabbro/include', '-I.', '-I..', '-Iinclude', '-I../include', '-Isrc', '-I../src', '-Igabbro', '-I../gabbro', '-DRELEASE', '-DPBL_PLATFORM_GABBRO', '-DPBL_COLOR', '-DPBL_ROUND', '-DPBL_MICROPHONE', '-DPBL_HEALTH', '-DPBL_COMPASS', '-DPBL_TOUCH', '-DPBL_DISPLAY_WIDTH=260', '-DPBL_DISPLAY_HEIGHT=260', '-DPBL_SDK_3', '../src/c/main.c', '-c', '-o/tmp/tmpg0soue27/build/src/c/main.c.51.o']
 Build failed.
-INFO:root:Spent 0.001436 seconds waiting for analytics.
+INFO:root:Spent 0.000302 seconds waiting for analytics.
